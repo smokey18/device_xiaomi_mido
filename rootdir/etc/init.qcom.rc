@@ -115,6 +115,12 @@ on boot
     # Thermal Profile
     write /sys/class/thermal/thermal_message/sconfig 0
 
+    # ZRAM parameters
+    write /sys/block/zram0/comp_algorithm lz4
+    write /sys/block/zram0/disksize 1073741824
+    write /sys/block/zram0/max_comp_streams 8
+    write /proc/sys/vm/page-cluster 0
+
     mkdir /persist/drm 0770 system system
     mkdir /mnt/vendor/persist/bluetooth 0770 bluetooth bluetooth
     mkdir /persist/misc 0770 system system
