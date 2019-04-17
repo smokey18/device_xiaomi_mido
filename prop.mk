@@ -319,3 +319,6 @@ MultitouchSettleInterval=1ms \
 MultitouchMinDistance=1px \
 TapInterval=1ms \
 TapSlop=1px
+
+# Spectrum
+spectrum.support=1

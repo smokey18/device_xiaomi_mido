@@ -6,3 +6,6 @@ r_dir_file(system_app sysfs_zram)
 
 allow system_app camera_prop:property_service set;
 get_prop(system_app, camera_prop);
+
+allow system_app spectrum_prop:property_service set;
+get_prop(system_app, spectrum_prop);
