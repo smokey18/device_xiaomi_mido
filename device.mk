@@ -324,15 +324,13 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.2 \
-    android.hardware.radio@1.4 \
+    android.hardware.radio@1.0 \
     android.hardware.radio.config@1.0 \
     android.hardware.secure_element@1.0 \
     librmnetctl \
     libcnefeatureconfig \
     libxml2 \
     telephony-ext \
-    ims-ext-common_system \
     rild \
     libprotobuf-cpp-full \
     qti-telephony-hidl-wrapper \
