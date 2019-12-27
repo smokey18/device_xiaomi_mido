@@ -1168,7 +1168,7 @@
     </path>
 
     <path name="hph-highquality-mode">
-        <ctl name="RX HPH Mode" value="HD2" />
+        <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
     </path>
 
     <path name="hph-lowpower-mode">
