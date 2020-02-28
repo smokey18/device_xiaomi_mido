@@ -688,6 +688,9 @@
     <string name="config_smartChargingSupspendValue" translatable="false">0</string>
     <string name="config_smartChargingResumeValue" translatable="false">1</string>
 
+    <!-- Smart charging -->
+    <bool name="config_smartChargingAvailable">true</bool>
+
     <!-- Display mode remapping table.
          If the mode names returned by the backend do not match
          the predefined and translated strings in the Settings
