@@ -85,7 +85,17 @@ ro.vendor.display.cabl=2 \
 sdm.debug.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=1 \
 vendor.display.disable_skip_validate=1 \
+debug.cpurend.vsync=false \
 vendor.gralloc.enable_fb_ubwc=1
+
+# Dalvik heap memory limits
+PRODUCT_PROPERTY_OVERRIDES += \
+dalvik.vm.heapstartsize=16m \
+dalvik.vm.heapgrowthlimit=256m \
+dalvik.vm.heapsize=512m \
+dalvik.vm.heaptargetutilization=0.75 \
+dalvik.vm.heapminfree=4m \
+dalvik.vm.heapmaxfree=8m
 
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
