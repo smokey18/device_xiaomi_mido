@@ -235,6 +235,10 @@ ro.adb.secure=0 \
 ro.secure=0 \
 ro.debuggable=1
 
+# Usb
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.vendor.sys.usb.config.extra=none
+
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
