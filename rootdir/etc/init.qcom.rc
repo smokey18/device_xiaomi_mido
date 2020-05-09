@@ -34,6 +34,8 @@ on early-init
     chown root system /dev/kmsg
     chmod 0620 /dev/kmsg
 
+    write /proc/sys/vm/vfs_cache_pressure 100    
+
 on post-fs
     chmod 0755 /sys/kernel/debug/tracing
 
