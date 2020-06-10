@@ -21,3 +21,7 @@ type proc_touchpanel, fs_type, sysfs_type, proc_type;
 
 # FPS Info
 type sysfs_fps, sysfs_type, fs_type;
+
+# Xiaomi Add-on
+type sysfs_kcal, fs_type, sysfs_type;
+type sysfs_fastcharge, sysfs_type, fs_type;
