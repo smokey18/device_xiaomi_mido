@@ -9,3 +9,6 @@ allow system_server sysfs_vibrator:file read;
 
 # Smart Charging
 allow system_server sysfs_battery_supply:file { getattr open read write };
+
+# zygote
+allow system_server app_zygote:process getpgid;
