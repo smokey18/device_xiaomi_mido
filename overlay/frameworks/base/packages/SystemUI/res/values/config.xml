@@ -41,4 +41,7 @@
     <integer name="config_maxVisibleNotificationIcons">8</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">8</integer>
 
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+     vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
 </resources>
