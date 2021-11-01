@@ -35,3 +35,9 @@ persist.sys.io.scheduler=bfq
 
 # IMS
 ro.telephony.block_binder_thread_on_incoming_calls=false
+
+# USB debugging
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
